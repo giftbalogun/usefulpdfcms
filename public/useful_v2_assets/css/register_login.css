@@ -1,0 +1,77 @@
+.input-inner {
+  position: absolute;
+  right: 5%;
+  top: 35%;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.custom-btn {
+  background-color: #6fbfce;
+  color: white;
+  width: 100%;
+  transition: 300ms ease-in-out;
+}
+
+.custom-btn:hover {
+  background-color: #15523a;
+  color: white;
+}
+
+.register-page {
+  height: 100vh;
+}
+
+.main-holder {
+  display: flex;
+  height: 100vh;
+}
+
+.left-section {
+  position: relative;
+  flex: 1;
+}
+
+.left-image {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+.right-section {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.cover {
+  width: 100%;
+  height: 100%;
+  background: url("../img/use-cases/register/cover_photo.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+.cover-text {
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+}
+
+@media screen and (max-width: 950px) {
+  .left-section {
+    display: none;
+  }
+  .register-page {
+    min-height: 100vh;
+  }
+  .right-section {
+    padding: 30px;
+  }
+}

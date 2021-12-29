@@ -1,0 +1,333 @@
+.dark-green {
+  background: #15523a;
+}
+
+.pcr-app {
+  display: block !important;
+}
+
+.btn-green {
+  background-color: #2dae7a;
+}
+
+.white-bg,
+.white-bg:hover {
+  background-color: #f9f9fa;
+}
+
+.pure-white-bg,
+.pure-white-bg:hover {
+  background-color: #ffffff;
+}
+
+.light-blue-bg {
+  background-color: #e2f2f5;
+}
+
+.signature-card {
+  background: #ffffff;
+}
+
+.faq-card {
+  background: #f9f9fa;
+}
+
+.primary-bg {
+  background-color: #235b66;
+}
+
+.white-color,
+.white-color:hover {
+  color: #f9f9fa;
+}
+
+.black-color,
+.black-color:hover {
+  color: #2b2b2b;
+}
+
+.black-color-main,
+.black-color-main:hover {
+  color: #000;
+}
+
+.black-secondary-color,
+.black-secondary-color:hover {
+  color: #7b7c81;
+}
+
+.dark-green-color,
+.dark-green-color:hover {
+  color: #15523a;
+}
+
+.green-color,
+.green-color:hover {
+  color: #2dae7a;
+}
+
+.foot-color,
+.foot-color:hover,
+.foot-color:active {
+  color: #c7c7c7;
+  text-decoration: none;
+}
+
+.border-top-white {
+  border-top: 2px solid #737373;
+}
+
+.draw-signature-card {
+  background: #f9f9fa;
+  border: 1px solid #c0c0c0;
+}
+
+.border-top-smoke {
+  border-top: 1px solid #d1d1d1;
+}
+
+.color-picker {
+  background: #000000;
+  border-radius: 100px;
+  transform: rotate(22.19deg);
+  padding: 1px 10px;
+}
+
+.primary-color,
+.primary-color:hover {
+  color: #235b66;
+}
+
+.btn-full-green,
+.btn-full-green:hover {
+  background: #15523a;
+  border-radius: 1000px;
+  color: #f9f9fa;
+}
+
+.btn-border-green,
+.btn-border-green:hover {
+  border: 2px solid #15523a;
+  box-sizing: border-box;
+  border-radius: 1000px;
+  color: #15523a;
+  font-size: 13px;
+}
+
+.btn-sig,
+.signature-option-holder {
+  background: #2dae7a;
+  border-radius: 30px;
+}
+
+.remove-bg {
+  background: transparent !important;
+}
+
+.remove-border {
+  border: none !important;
+}
+
+.custom-close {
+  color: #bfbfbf;
+  text-shadow: none;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.sig-modal-card {
+  background: #fdfdfd;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+}
+
+.img-border {
+  border: 4px solid #2dae7a;
+  box-sizing: border-box;
+  border-radius: 60px;
+}
+
+.sig-usecase-card {
+  background: #f9f9fa;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.16);
+  border-radius: 20px;
+}
+
+.early-access-card {
+  background: #f9f9fa;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.15);
+  border-radius: 40px;
+}
+
+.grad1 {
+  position: absolute;
+  width: 230px;
+  height: 380px;
+  background: rgba(70, 207, 152, 0.07);
+  top: -100px;
+  left: 100px;
+}
+
+.grad2 {
+  position: absolute;
+  width: 170px;
+  height: 280px;
+  background: rgba(70, 207, 152, 0.07);
+  right: 0;
+  top: 140px;
+}
+
+#signature-layout-container {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.grad3 {
+  position: absolute;
+  width: 323px;
+  height: 220px;
+  background: rgba(70, 207, 152, 0.07);
+  left: 50px;
+  top: 390px;
+}
+
+.grad4 {
+  position: absolute;
+  width: 220px;
+  height: 180px;
+  background: rgba(70, 207, 152, 0.07);
+  right: 0;
+  top: 540px;
+}
+
+.grad5 {
+  position: absolute;
+  height: 320px;
+  width: 290px;
+  background: rgba(70, 207, 152, 0.07);
+  left: 50%;
+  top: 540px;
+  z-index: -1;
+}
+
+.faq_container {
+  position: relative;
+  top: -180px;
+}
+
+.faq_watermark {
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+  font-size: 230px;
+  line-height: 573px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: rgba(255, 255, 255, 0.08);
+}
+
+.ml-custom-50 {
+  margin-left: 125px;
+}
+
+.footer_grad_container {
+  position: relative;
+  left: 82%;
+  bottom: -555px;
+}
+
+.footer_grad {
+  position: absolute;
+  bottom: 0;
+  width: 400px;
+  height: 380px;
+  border-radius: 190px;
+  background: rgba(45, 174, 122, 0.1);
+}
+
+body {
+  overflow-x: hidden !important;
+}
+
+.signature-creator-draw .grad1 {
+  left: 70px;
+}
+
+.signature-creator-draw .grad2 {
+  right: 0;
+  top: 30px;
+}
+
+.signature-creator-draw .grad3 {
+  left: 60px;
+  top: 440px;
+}
+
+.signature-creator-draw .grad4 {
+  width: 260px;
+  right: 0;
+  top: 500px;
+}
+
+.signature-creator-draw .grad5 {
+  left: 45%;
+  top: 440px;
+}
+
+.signature-creator-draw-container .footer_grad_container {
+  position: relative;
+  left: 82%;
+  bottom: -490px;
+}
+
+.signature-creator-draw-container .footer_grad {
+  position: absolute;
+  bottom: 0;
+  width: 400px;
+  height: 380px;
+  border-radius: 190px;
+  background: rgba(45, 174, 122, 0.1);
+}
+
+.type_signature .grad1 {
+  left: 70px;
+}
+
+.type_signature .grad2 {
+  right: 0;
+  top: 30px;
+}
+
+.type_signature .grad3 {
+  left: 60px;
+  top: 430px;
+  height: 240px;
+}
+
+.type_signature .grad4 {
+  width: 260px;
+  right: 0;
+  top: 500px;
+}
+
+.type_signature .grad5 {
+  left: 45%;
+  top: 435px;
+  height: 301px;
+}
+
+.type_signature .footer_grad_container {
+  position: relative;
+  left: 82%;
+  bottom: -490px;
+}
+
+.type_signature .footer_grad {
+  position: absolute;
+  bottom: 0;
+  width: 400px;
+  height: 380px;
+  border-radius: 190px;
+  background: rgba(45, 174, 122, 0.1);
+}

@@ -1,10 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Models\TemplateCategories;
-use App\Models\ContractTemplates;
+use App\Models\Template;
+use App\Models\Contract;
 
-use App\Http\Controllers\ContractTemplatesController;
+use App\Http\Controllers\ContractController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,13 +22,13 @@ Route::get('/', function () {
 });
 
 Route::get('/categories', function () {
-    return TemplateCategories::all();
+    return Template::all();
 });
 
 Route::get('/contracts', function () {
-    return ContractTemplates::all();
+    return Contract::all();
 });
-Route::get('/contracts/{slug}', [
-    ContractTemplatesController::class,
-    'contract',
-])->name('homepage');
+
+Route::get('/contracts/{slug}', [ContractController::class, 'contract'])->name(
+    'homepage'
+);

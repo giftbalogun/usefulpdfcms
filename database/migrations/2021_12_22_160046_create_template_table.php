@@ -24,6 +24,8 @@ class CreateTemplateTable extends Migration
             $table->text('header_content');
             $table->char('preview_image')->nullable();
 
+            $table->text('template_body');
+
             $table->string('page_title');
             $table->string('page_meta_description');
             $table->char('page_meta_image');

@@ -75,6 +75,11 @@ class Template extends Resource
                 ->sortable()
                 ->rules('required', 'max:255'),
 
+            Trix::make('Template Body')
+                ->sortable()
+                ->hideFromIndex()
+                ->rules('required'),
+
             Text::make('Page Meta Description')
                 ->hideFromIndex()
                 ->sortable()

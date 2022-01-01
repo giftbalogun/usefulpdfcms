@@ -25,10 +25,16 @@ Route::get('/categories', function () {
     return Template::all();
 });
 
-Route::get('/contracts', function () {
+Route::get('/contr', function () {
     return Contract::all();
 });
 
-Route::get('/contracts/{slug}', [ContractController::class, 'contract'])->name(
-    'homepage'
-);
+Route::group(['prefix' => '/contracts'], function () {
+    Route::get('/{contract}', [ContractController::class, 'contract'])->name(
+        'contracts.slug'
+    );
+
+    Route::get('/s/{template}', [ContractController::class, 'tcontract'])->name(
+        'tcontracts.slug'
+    );
+});

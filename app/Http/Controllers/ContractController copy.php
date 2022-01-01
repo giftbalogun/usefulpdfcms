@@ -6,18 +6,14 @@ use Illuminate\Http\Request;
 use App\Models\Contract;
 use App\Models\Template;
 use Illuminate\Support\Facades\Storage;
-use ClassicO\NovaMediaLibrary\API;
-
+use ClassicO\NovaMediaLibrary\Core\{Model};
 class ContractController extends Controller
 {
     public function contract($contract)
     {
         $contract = Contract::where('slug', $contract)->first();
+        $contract->attachment = self::getFiles($contract->preview_image);
 
-        $file = API::getFiles($contract->preview_image, 'thumb', true);
-        $attachment = API::getPrivateFile($file->path, null);
-
-        $imagePath = Storage::url($file->path);
         //$tcontracts = Contract::where('slug', $contract)->first()->template;
 
         $contractss = Contract::latest()->get();
@@ -25,12 +21,15 @@ class ContractController extends Controller
         $data = [
             'contracts' => $contract,
             'contractss' => $contractss,
-            'file' => $file,
-            'attachment' => $attachment,
-            'imagePath' => $imagePath,
+            //'tcontracts' => $tcontracts,
         ];
 
         return view('slug')->with($data);
+    }
+
+    public static function getFiles($id)
+    {
+        return Model::where('id', $id)->first()->name;
     }
 
     public function tcontract($template)

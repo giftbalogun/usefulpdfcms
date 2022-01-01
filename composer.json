@@ -10,6 +10,8 @@
     "require": {
         "php": "^7.3|^8.0",
         "benjaminhirsch/nova-slug-field": "^1.2",
+        "classic-o/nova-media-library": "^1.0",
+        "ebess/advanced-nova-media-library": "^3.6",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.75",

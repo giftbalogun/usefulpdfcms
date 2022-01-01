@@ -1986,7 +1986,6 @@
         .pcr-app[data-v-e6131698] {
             display: none !important
         }
-
     </style>
     <link rel="preload" href="https://usefulpdf.com/_nuxt/static/1638430657/payload.js" as="script">
     <link rel="preload" href="https://usefulpdf.com/manifest.js.download" as="script">
@@ -2032,7 +2031,6 @@
                 white-space: nowrap !important
             }
         }
-
     </style>
     <style type="text/css">
         #hideModalBtn[data-v-553b44e5] {
@@ -2042,7 +2040,6 @@
         .download-modal[data-v-553b44e5] {
             border: 1rem !important
         }
-
     </style>
     <style type="text/css">
         h1[data-v-7e12c5d1],
@@ -2099,7 +2096,6 @@
                 white-space: nowrap !important
             }
         }
-
     </style>
     <script type="text/javascript" src="chrome-extension://gpaghdfobahiicbgkdlmcfmphnhagkci/inject.js"></script>
     <link rel="canonical" type="image/x-icon" href="https://usefulpdf.com/bill-of-sale">
@@ -2253,13 +2249,12 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-6 text-lg-right text-center">
+                                        <div class="col-lg-6 text-lg-right text-center  ">
                                             @if ($contracts->preview_image)
-                                                <img onerror="this.src=&#39;https://via.placeholder.com/350x400/FFFFFF/000000/?text=Placeholder&#39;"
-                                                    alt="" class="rounded-lg img-fluid lazyLoad isLoaded"
-                                                    src="{{ $file->name }}">
+                                            <img onerror="this.src=&#39;https://via.placeholder.com/350x400/FFFFFF/000000/?text=Placeholder&#39;"
+                                                alt="" class="rounded-lg img-fluid lazyLoad isLoaded"
+                                                src="{{ $imagePath }}">
                                             @endif
-
                                         </div>
                                     </div>
                                 </div>
@@ -2270,8 +2265,7 @@
                                 <!---->
                             </div>
                         </div>
-                        <div class="  container ">
-                        </div>
+                        <div class="container "></div>
                         <div class="container-fluid mt-5">
                             <section class="row">
                                 <div class="col-lg-2 col-12  mb-5  offset-lg-1">
@@ -2282,10 +2276,10 @@
                                             All templates
                                         </a>
                                         @foreach ($contractss as $item)
-                                            <a href="{{ route('contracts.slug', $item->slug) }}"
-                                                class=" text-decoration-none template-category-menu-item mr-4 text-dark mb-0 mb-lg-4">
-                                                {{ $item->name }}
-                                            </a>
+                                        <a href="{{ route('contracts.slug', $item->slug) }}"
+                                            class=" text-decoration-none template-category-menu-item mr-4 text-dark mb-0 mb-lg-4">
+                                            {{ $item->name }}
+                                        </a>
                                         @endforeach
                                     </div>
                                 </div>
@@ -2294,25 +2288,7 @@
                                     <h2 class="mb-5">
                                         Categories of {{ $contracts->name }}
                                     </h2>
-                                    <div class="row">
 
-                                        <div class="col-12 col-md-6 mt-5 mb-5">
-                                            <a href="" class="text-is-primary title-link mb-3">
-
-                                            </a>
-                                            <div class="cms-black-text">
-                                                <p>A bill of sale document that's used to prove the
-                                                    lawful transfer
-                                                    of ownership for all types of motor
-                                                    vehicles.&nbsp;</p>
-                                            </div>
-                                            <a href="#" class=""><img alt="Arrow"
-                                                    class="lazyLoad isLoaded"
-                                                    src="{{ asset('/useful_v2_assets/icons/arrow.svg') }}">
-                                            </a>
-                                        </div>
-
-                                    </div>
                                     <div class="col-12 col-md-6 mt-2 mb-5">
                                         <h2 class="mb-5">Bill Of Sale by State</h2>
                                     </div>
@@ -2341,7 +2317,7 @@
                                 </div>
 
                             </section>
-                            <section class="row  mb-12">
+                            <section class="row">
 
                             </section>
                             <section id="extra-info" class="row ">
@@ -2518,8 +2494,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div
-                                class="us-footer--extend d-block d-lg-flex align-items-center justify-content-between">
+                            <div class="us-footer--extend d-block d-lg-flex align-items-center justify-content-between">
                                 <p class="copyright">
                                     © Useful Innovations, Inc. 2020 - 2021.
                                 </p>
@@ -2545,7 +2520,8 @@
     <script src="https://usefulpdf.com/5e7a9bf.js.download" defer=""></script>
     <script src="https://usefulpdf.com/80a7cf0.js.download" defer=""></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" data-body="true"></script>
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"
+        data-body="true"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"
         data-body="true"></script>

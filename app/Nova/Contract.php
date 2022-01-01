@@ -15,6 +15,7 @@ use Laravel\Nova\Fields\Boolean;
 use Benjaminhirsch\NovaSlugField\Slug;
 use Benjaminhirsch\NovaSlugField\TextWithSlug;
 use Laravel\Nova\Fields\Trix;
+use ClassicO\NovaMediaLibrary\MediaLibrary;
 
 class Contract extends Resource
 {
@@ -67,13 +68,14 @@ class Contract extends Resource
                 ->hideFromIndex()
                 ->rules('required'),
 
-            //Image::make('Preview Image')->hideFromIndex(),
-            Image::make('Preview Image')
-                ->hideFromIndex()
-                ->disk('public')
-                ->preview(function ($value, $disk) {
-                    return $value ? Storage::disk($disk)->url($value) : null;
-                }),
+            MediaLibrary::make('Preview Image')->preview('thumb'),
+
+            //Image::make('Preview Image')
+            //    ->hideFromIndex()
+            //    ->disk('public')
+            //    ->preview(function ($value, $disk) {
+            //        return $value ? Storage::disk($disk)->url($value) : null;
+            //    }),
 
             Text::make('Short Name')
                 ->sortable()
@@ -83,8 +85,10 @@ class Contract extends Resource
             Trix::make('Template Body')
                 ->sortable()
                 ->rules('required'),
+
             Text::make('Short Description')
                 ->sortable()
+                ->hideFromIndex()
                 ->rules('required', 'max:255'),
 
             Text::make('Page Title')

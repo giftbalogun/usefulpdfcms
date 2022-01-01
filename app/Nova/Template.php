@@ -36,7 +36,7 @@ class Template extends Resource
      *
      * @var array
      */
-    public static $search = ['id', 'name', 'header_title'];
+    public static $search = ['id', 'name'];
 
     /**
      * Get the fields displayed by the resource.

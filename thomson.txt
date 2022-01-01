@@ -1,0 +1,21 @@
+#State Schema
+id
+user_id
+template_id
+name
+slug
+published_at
+timestamp()
+
+
+#Contract Schema
+
+
+#Template Category
+id
+name
+
+
+Contracts=templates_categories
+
+Templates:contract_templates

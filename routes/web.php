@@ -18,8 +18,12 @@ use App\Http\Controllers\ContractController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
+
+Route::get('/contracts', function () {
+    return view('contracts');
+})->name('contracts');
 
 Route::get('/categories', function () {
     return Template::all();

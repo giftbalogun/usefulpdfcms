@@ -16,6 +16,7 @@ use Benjaminhirsch\NovaSlugField\Slug;
 use Benjaminhirsch\NovaSlugField\TextWithSlug;
 use Laravel\Nova\Fields\Trix;
 use ClassicO\NovaMediaLibrary\MediaLibrary;
+use Kraftbit\NovaTinymce5Editor\NovaTinymce5Editor;
 
 class Contract extends Resource
 {
@@ -63,10 +64,11 @@ class Contract extends Resource
             Text::make('Header Title')
                 ->sortable()
                 ->rules('required', 'max:255'),
-            Trix::make('Header Content')
-                ->sortable()
-                ->hideFromIndex()
-                ->rules('required'),
+
+            NovaTinymce5Editor::make(
+                'Header Content',
+                'Header Content'
+            )->hideFromIndex(),
 
             MediaLibrary::make('Preview Image')->preview('thumb'),
 
@@ -82,22 +84,27 @@ class Contract extends Resource
                 ->hideFromIndex()
                 ->rules('required', 'max:255'),
 
-            Trix::make('Template Body')
+            NovaTinymce5Editor::make('Template Body', 'Template Body')
+                ->hideFromIndex()
+                ->options([
+                    'toolbar' => ['undo redo | align | link | code'],
+                    'plugins' => ['link code'],
+                ]),
+
+            Trix::make('Short Description')
                 ->sortable()
                 ->rules('required'),
 
-            Text::make('Short Description')
+            Text::make('Page Title')
                 ->sortable()
                 ->hideFromIndex()
                 ->rules('required', 'max:255'),
 
-            Text::make('Page Title')
-                ->sortable()
-                ->rules('required', 'max:255'),
             Text::make('Page Meta Description')
                 ->sortable()
                 ->hideFromIndex()
                 ->rules('required', 'max:255'),
+
             Text::make('Page Meta Image')
                 ->sortable()
                 ->hideFromIndex(),

@@ -14,6 +14,7 @@ use Benjaminhirsch\NovaSlugField\Slug;
 use Benjaminhirsch\NovaSlugField\TextWithSlug;
 use Laravel\Nova\Fields\Trix;
 use App\Models\Contract;
+use Kraftbit\NovaTinymce5Editor\NovaTinymce5Editor;
 
 class Template extends Resource
 {
@@ -64,10 +65,12 @@ class Template extends Resource
                 ->hideFromIndex()
                 ->rules('required', 'max:255'),
 
-            Trix::make('Header Content')
-                ->sortable()
+            NovaTinymce5Editor::make('Header Content', 'Header Content')
                 ->hideFromIndex()
-                ->rules('required'),
+                ->options([
+                    'toolbar' => ['undo redo | align | link | code'],
+                    'plugins' => ['link code'],
+                ]),
 
             Image::make('Preview Image')->hideFromIndex(),
 

@@ -14,10 +14,10 @@ class ContractController extends Controller
     {
         $contract = Contract::where('slug', $contract)->first();
 
-        $file = API::getFiles($contract->preview_image, 'thumb', true);
-        $attachment = API::getPrivateFile($file->path, null);
+        $file = API::getFiles($contract->preview_image, null, true);
+        //$attachment = API::getPrivateFile($file->path, null);
 
-        $imagePath = Storage::url($file->path);
+        //$imagePath = Storage::url($file->path);
         //$tcontracts = Contract::where('slug', $contract)->first()->template;
 
         $contractss = Contract::latest()->get();
@@ -26,8 +26,8 @@ class ContractController extends Controller
             'contracts' => $contract,
             'contractss' => $contractss,
             'file' => $file,
-            'attachment' => $attachment,
-            'imagePath' => $imagePath,
+            //'attachment' => $attachment,
+            //'imagePath' => $imagePath,
         ];
 
         return view('slug')->with($data);

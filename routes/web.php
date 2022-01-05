@@ -17,6 +17,22 @@ use App\Http\Controllers\ContractController;
 |
 */
 
+Route::get('/upload', function () {
+    $files = Storage::disk('digitalocean')->files('uploads');
+
+    return view('post', compact('files'));
+});
+
+Route::post('/upload', function () {
+    Storage::disk('digitalocean')->putFile(
+        'uploads',
+        request()->file,
+        'public'
+    );
+
+    return redirect()->back();
+});
+
 Route::get('/', function () {
     return view('index');
 });

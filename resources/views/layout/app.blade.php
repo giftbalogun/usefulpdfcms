@@ -1983,19 +1983,7 @@
         }
 
     </style>
-    <link rel="preload" href="https://usefulpdf.com/_nuxt/static/1638430657/payload.js" as="script">
-    <link rel="preload" href="https://usefulpdf.com/manifest.js.download" as="script">
-    <script charset="utf-8" src="https://usefulpdf.com/manifest.js"></script>
-    <script charset="utf-8" src="https://usefulpdf.com/878e213.js"></script>
-    <script charset="utf-8" src="https://usefulpdf.com/347f2f7.js"></script>
-    <script charset="utf-8" src="https://usefulpdf.com/18ca9b0.js"></script>
-    <script charset="utf-8" src="https://usefulpdf.com/a04a754.js"></script>
-    <script charset="utf-8" src="https://usefulpdf.com/b1fd8bd.js"></script>
-    <script charset="utf-8" src="https://usefulpdf.com/17638bd.js"></script>
-    <script charset="utf-8" src="https://usefulpdf.com/f20f1bf.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script charset="utf-8" src="https://usefulpdf.com/459ee9d.js"></script>
-    <script charset="utf-8" src="https://usefulpdf.com/260fb2a.js"></script>
     <style type="text/css">
         .dropdown-toggle[data-v-1e8f6f5e]:after {
             display: none !important
@@ -2107,52 +2095,46 @@
 <body data-new-gr-c-s-check-loaded="14.1003.0" data-gr-ext-installed="">
     <div id="__nuxt">
         <div id="__layout">
-            <div data-v-e6131698="">
-                <section data-v-e6131698="" class="cookieControl">
+            <div>
+                <section class="cookieControl">
                     <!---->
                     <!---->
                     <!---->
                 </section>
-                <header class="us-header" data-v-e6131698="">
-                    <nav class="us-nav container-fluid" data-v-e6131698="">
-                        <div class="us-nav--brand col-auto p-0" data-v-e6131698=""><a href="https://usefulpdf.com/"
-                                aria-current="page" class="us-nav--menu-link nuxt-link-exact-active nuxt-link-active"
-                                data-v-e6131698=""><img alt="" data-v-e6131698="" class="lazyLoad isLoaded"
+                <header class="us-header">
+                    <nav class="us-nav container-fluid">
+                        <div class="us-nav--brand col-auto p-0"><a href="https://usefulpdf.com/" aria-current="page"
+                                class="us-nav--menu-link nuxt-link-exact-active nuxt-link-active"><img alt=""
+                                    class="lazyLoad isLoaded"
                                     src="./Electronic signature and document generation software _ UsefulPDF_files/logo.939a269.png"></a>
                         </div>
-                        <div class="mobile-nav-toggle" data-v-e6131698=""><a href="javascript:void(0)"
-                                class="toggleNav" data-v-e6131698=""><span data-v-e6131698=""></span> <span
-                                    data-v-e6131698=""></span>
-                                <span data-v-e6131698=""></span></a></div>
-                        <div class="col p-0 pr-5 d-flex justify-content-end align-items-center us-nav--menu-holder"
-                            data-v-e6131698="">
-                            <ul class="us-nav--menu" data-v-e6131698="">
-                                <li class="us-nav--menu-list" data-v-e6131698=""><a href="https://usefulpdf.com/"
-                                        aria-current="page"
-                                        class="us-nav--menu-link nuxt-link-exact-active nuxt-link-active"
-                                        data-v-e6131698="">Home</a></li>
-                                <li class="us-nav--menu-list" data-v-e6131698=""><a href="https://usefulpdf.com/about"
-                                        class="us-nav--menu-link" data-v-e6131698="">About</a></li>
-                                <li class="us-nav--menu-list" data-v-e6131698=""><a
-                                        href="https://usefulpdf.com/document-generation" class="us-nav--menu-link"
-                                        data-v-e6131698="">Create Documents</a></li>
-                                <li class="us-nav--menu-list" data-v-e6131698="">
-                                    <div class="dropdown" data-v-e6131698=""><a href="https://usefulpdf.com/#!"
-                                            class="us-nav--menu-link d-flex align-items-center" data-v-e6131698="">eSign
-                                            Documents <i class="ti-angle-down ml-1" data-v-e6131698=""></i></a>
-                                        <div class="us-dropdown dropdown-content" style="min-width:300px"
-                                            data-v-e6131698="">
-                                            <div class="caret" data-v-e6131698=""></div>
-                                            <div class="row" data-v-e6131698="">
-                                                <div class="p-2" data-v-e6131698=""><a
+                        <div class="mobile-nav-toggle"><a href="javascript:void(0)" class="toggleNav"><span></span>
+                                <span></span>
+                                <span></span></a></div>
+                        <div class="col p-0 pr-5 d-flex justify-content-end align-items-center us-nav--menu-holder">
+                            <ul class="us-nav--menu">
+                                <li class="us-nav--menu-list"><a href="https://usefulpdf.com/" aria-current="page"
+                                        class="us-nav--menu-link nuxt-link-exact-active nuxt-link-active">Home</a></li>
+                                <li class="us-nav--menu-list"><a href="https://usefulpdf.com/about"
+                                        class="us-nav--menu-link">About</a></li>
+                                <li class="us-nav--menu-list"><a href="https://usefulpdf.com/document-generation"
+                                        class="us-nav--menu-link">Create Documents</a></li>
+                                <li class="us-nav--menu-list">
+                                    <div class="dropdown"><a href="https://usefulpdf.com/#!"
+                                            class="us-nav--menu-link d-flex align-items-center">eSign
+                                            Documents <i class="ti-angle-down ml-1"></i></a>
+                                        <div class="us-dropdown dropdown-content" style="min-width:300px">
+                                            <div class="caret"></div>
+                                            <div class="row">
+                                                <div class="p-2"><a
                                                         href="https://usefulpdf.com/electronic-signature"
-                                                        class="dropdown-content-link" data-v-e6131698="">Electronic
+                                                        class="dropdown-content-link">Electronic
                                                         Signature</a> <a href="https://usefulpdf.com/signature-creator"
-                                                        class="dropdown-content-link" data-v-e6131698="">Free Online
+                                                        class="dropdown-content-link">Free Online
                                                         Signature Creator</a> <a href="{{ route('contracts') }}"
-                                                        class="dropdown-content-link" data-v-e6131698="">Contract
+                                                        class="dropdown-content-link">Contract
                                                         templates</a> <a href="https://usefulpdf.com/use-case"
-                                                        class="dropdown-content-link" data-v-e6131698="">Use Cases</a>
+                                                        class="dropdown-content-link">Use Cases</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -2165,104 +2147,94 @@
 
                 @yield('content')
 
-                <footer class="us-footer has-cta" data-v-e6131698="">
-                    <div class="cta-zig" data-v-e6131698=""><img
+                <footer class="us-footer has-cta">
+                    <div class="cta-zig"><img
                             data-src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjk4IiBoZWlnaHQ9IjI4MCIgdmlld0JveD0iMCAwIDI5OCAyODAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0yMDkuODk4IDg4LjAwODRDMjMyLjMgMTEwLjg5OCAyNTcuNTk5IDEzNC4xNDMgMjc3LjgyMyAxNTguNTE4QzI4My44MzggMTY1Ljc2NyAyODMuNTcgMTY2LjM5NiAyNzQuMDQxIDE2NC4xMTdDMjU3LjI3OCAxNjAuMTA3IDIzMC4xNTggMTQ5Ljg0OCAyMTUuNDE5IDE0NC40MjNDMTgwLjQ3NyAxMzEuNTYyIDE0NC43OTYgMTE1LjY4MiAxMDkuNjg4IDEwNS45NDdDOTAuMjM2OSAxMDAuNTUzIDExOC42MDYgMTE4LjYgMTIxLjU3OSAxMjAuODY2QzEyNC43NyAxMjMuMjk4IDE4My40ODEgMTY3LjIxMSAxNzYuOTQyIDE3MC4yMzRDMTcxLjMyNSAxNzIuODMxIDE2MS45IDE2Ny44NDggMTU0LjI5NSAxNjUuNTAyQzEzOC44NTggMTYwLjc0MiAxMjMuNDcgMTU0LjQwNCAxMDguMDUgMTQ4Ljk4OEM4Ny4zNzUxIDE0MS43MjYgNDMuNzQ2NiAxMjUuMzAxIDIwLjYyOTIgMTIxLjk1MkMtMTYuMjE5OCAxMTYuNjE0IDU0Ljg4MDIgMTY3LjM1MSA1OC4xNDAyIDE2OS44OThDOTIuNjE3MSAxOTYuODM0IDEyNy45NTMgMjIyLjU2NCAxNjMuMTUgMjQ4LjUyOSIgc3Ryb2tlPSIjRjlGOUZBIiBzdHJva2Utd2lkdGg9IjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K"
-                            alt="" data-v-e6131698="" class="lazyLoad"></div>
-                    <div class="footer-circle" data-v-e6131698=""><img
+                            alt="" class="lazyLoad"></div>
+                    <div class="footer-circle"><img
                             data-src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDQ0IiBoZWlnaHQ9IjUwNCIgdmlld0JveD0iMCAwIDQ0NCA1MDQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxjaXJjbGUgY3g9IjM1OS41IiBjeT0iMzU5LjUiIHI9IjM1OS41IiBmaWxsPSIjMkRBRTdBIiBmaWxsLW9wYWNpdHk9IjAuMSIvPgo8L3N2Zz4K"
-                            alt="" data-v-e6131698="" class="lazyLoad"></div>
-                    <div class="container-fluid" data-v-e6131698="">
-                        <div class="col-lg-10 mx-auto" data-v-e6131698="">
-                            <div class="row" data-v-e6131698="">
-                                <div class="col-lg-3" data-v-e6131698="">
-                                    <div class="us-footer-menu" data-v-e6131698="">
-                                        <h3 class="us-footer-menu--header h4-title" data-v-e6131698="">Company</h3>
-                                        <div class="us-footer-menu--links" data-v-e6131698=""><a
-                                                href="https://usefulpdf.com/about" data-v-e6131698=""
+                            alt="" class="lazyLoad"></div>
+                    <div class="container-fluid">
+                        <div class="col-lg-10 mx-auto">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="us-footer-menu">
+                                        <h3 class="us-footer-menu--header h4-title">Company</h3>
+                                        <div class="us-footer-menu--links"><a href="https://usefulpdf.com/about"
                                                 class="">About
-                                            </a> <a href="https://usefulpdf.com/privacy-policy" data-v-e6131698=""
+                                            </a> <a href="https://usefulpdf.com/privacy-policy"
                                                 class="">Privacy Policy</a> <a
-                                                href="https://usefulpdf.com/terms-of-service" data-v-e6131698=""
+                                                href="https://usefulpdf.com/terms-of-service"
                                                 class="">Terms of Service</a> <a
-                                                href="https://usefulpdf.com/contact" data-v-e6131698=""
-                                                class="">Contact us</a></div>
+                                                href="https://usefulpdf.com/contact" class="">Contact
+                                                us</a></div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3" data-v-e6131698="">
-                                    <div class="us-footer-menu" data-v-e6131698="">
-                                        <h3 class="us-footer-menu--header h4-title" data-v-e6131698="">
+                                <div class="col-lg-3">
+                                    <div class="us-footer-menu">
+                                        <h3 class="us-footer-menu--header h4-title">
                                             Electronic Signature
                                         </h3>
-                                        <div class="us-footer-menu--links" data-v-e6131698=""><a
-                                                href="https://usefulpdf.com/electronic-signature" data-v-e6131698=""
+                                        <div class="us-footer-menu--links"><a
+                                                href="https://usefulpdf.com/electronic-signature"
                                                 class="">Electronic Signature</a> <a
-                                                href="https://usefulpdf.com/signature-creator" data-v-e6131698=""
+                                                href="https://usefulpdf.com/signature-creator"
                                                 class="">Free Online Singature Creator</a> <a
-                                                href="https://usefulpdf.com/use-case" data-v-e6131698=""
-                                                class="">Use
+                                                href="https://usefulpdf.com/use-case" class="">Use
                                                 cases</a></div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3" data-v-e6131698="">
-                                    <div class="us-footer-menu" data-v-e6131698="">
-                                        <h3 class="us-footer-menu--header h4-title" data-v-e6131698="">
+                                <div class="col-lg-3">
+                                    <div class="us-footer-menu">
+                                        <h3 class="us-footer-menu--header h4-title">
                                             Document Generation
                                         </h3>
-                                        <div class="us-footer-menu--links" data-v-e6131698=""><a
-                                                href="https://usefulpdf.com/contracts" data-v-e6131698=""
+                                        <div class="us-footer-menu--links"><a href="https://usefulpdf.com/contracts"
                                                 class="">All
                                                 Templates</a> <a href="https://usefulpdf.com/power-of-attorney"
-                                                data-v-e6131698="" class="">Power of Attorney</a> <a
-                                                href="https://usefulpdf.com/rental-lease" data-v-e6131698=""
-                                                class="">Lease agreement</a> <a
-                                                href="https://usefulpdf.com/eviction" data-v-e6131698=""
+                                                class="">Power of Attorney</a> <a
+                                                href="https://usefulpdf.com/rental-lease" class="">Lease
+                                                agreement</a> <a href="https://usefulpdf.com/eviction"
                                                 class="">Eviction Notice</a> <a
-                                                href="https://usefulpdf.com/employment" data-v-e6131698=""
+                                                href="https://usefulpdf.com/employment"
                                                 class="">Employment contracts</a> <a
-                                                href="https://usefulpdf.com/loan-agreement" data-v-e6131698=""
-                                                class="">Loan Agreement</a> <a
-                                                href="https://usefulpdf.com/rental-lease/application" data-v-e6131698=""
+                                                href="https://usefulpdf.com/loan-agreement" class="">Loan
+                                                Agreement</a> <a href="https://usefulpdf.com/rental-lease/application"
                                                 class="">Rental application</a> <a
-                                                href="https://usefulpdf.com/deed" data-v-e6131698=""
-                                                class="">Deed Forms</a> <a
-                                                href="https://usefulpdf.com/bill-of-sale" data-v-e6131698=""
-                                                class="">Bill
-                                                of Sale</a></div>
+                                                href="https://usefulpdf.com/deed" class="">Deed Forms</a>
+                                            <a href="https://usefulpdf.com/bill-of-sale" class="">Bill
+                                                of Sale</a>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3" data-v-e6131698="">
-                                    <div class="us-footer-menu" data-v-e6131698="">
-                                        <h3 class="us-footer-menu--header h4-title" data-v-e6131698="">Resources</h3>
-                                        <div class="us-footer-menu--links" data-v-e6131698=""><a
-                                                href="https://usefulpdf.com/esignature-legality" data-v-e6131698=""
+                                <div class="col-lg-3">
+                                    <div class="us-footer-menu">
+                                        <h3 class="us-footer-menu--header h4-title">Resources</h3>
+                                        <div class="us-footer-menu--links"><a
+                                                href="https://usefulpdf.com/esignature-legality"
                                                 class="">Electronic signature legality guide</a> <a
-                                                href="https://usefulpdf.com/trust-security" data-v-e6131698=""
-                                                class="">Trust and security</a> <a
-                                                href="https://usefulpdf.tawk.help/" target="_blank"
-                                                data-v-e6131698="">Support center</a> <a
-                                                href="https://usefulpdf.com/contracts" data-v-e6131698=""
-                                                class="">Contract templates</a> <a
-                                                href="https://usefulpdf.com/blog/" data-v-e6131698="">Blog </a></div>
+                                                href="https://usefulpdf.com/trust-security" class="">Trust
+                                                and security</a> <a href="https://usefulpdf.tawk.help/"
+                                                target="_blank">Support center</a> <a
+                                                href="https://usefulpdf.com/contracts" class="">Contract
+                                                templates</a> <a href="https://usefulpdf.com/blog/">Blog </a></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="us-footer--extend d-block d-lg-flex align-items-center justify-content-between"
-                                data-v-e6131698="">
-                                <p class="copyright" data-v-e6131698="">
+                            <div class="us-footer--extend d-block d-lg-flex align-items-center justify-content-between">
+                                <p class="copyright">
                                     © Useful Innovations, Inc. 2020 - 2021.
                                 </p>
-                                <div class="us-footer--social" data-v-e6131698=""><a
-                                        href="http://facebook.com/usefulpdf" target="_blank" data-v-e6131698=""><img
+                                <div class="us-footer--social"><a href="http://facebook.com/usefulpdf"
+                                        target="_blank"><img
                                             data-src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAWCAYAAAAb+hYkAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADWSURBVHgB3VLLDcIwDE1CRK+MUDbpBrABbMBq3YARYAOyAaeqH7UyjsDIdZ1S9ciTIif+PzvWKACAXd/3F5QFgCmEOVgZUNd17tzmitfcLEXbdg88ECUmKGJVZot6kFXOFMCdZ4NQcYvKqmqP8Y28Tvh+kjMdKzNFmWVbS60q3II388h5EoIzK+ATLYwgyAenBITEfZxlMkYFtI6macrFnJzzhygBXOl5RWoJp7X/6Bjft3kYurvVBsH2JNv+JjS8GndM8V21p38MUn/5rx8iKwXFZ6J7ATRgtzdCeXyQAAAAAElFTkSuQmCC"
-                                            class="social-icon lazyLoad" data-v-e6131698=""></a> <a
-                                        href="https://twitter.com/pdfuseful" target="_blank" data-v-e6131698=""><img
+                                            class="social-icon lazyLoad"></a> <a href="https://twitter.com/pdfuseful"
+                                        target="_blank"><img
                                             data-src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAVCAYAAABc6S4mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHpSURBVHgBzVXdccIwDLad0gtvbEA2aDZoNmg3KJ2AbgCdoDABbACdADpB6QSwATzAOYmJXSnBxDg/DcdLv7vEP5KlT7JlE/IfwTn34jieRFG8hU/Bt8YxzmdyEUSRGGCf5otE0GrRruM4n5TSXZXx4/H4kiRyBN1OiXhHKVkpRYLUOCVLkntMmShkQmqYa9ZhGI9yxtzjPJpqGwVbqHwpjGZ6sQmQTepIwJoeyL5PdrZnGzC5wElgMcR86rxyHveUUh3DwTbTKzpHoK4mGYbhm8ks9brf7/0sDWJmhbqIY/Ghx6QGpTqQopQ1oGuFu7Dzeq2DuyrFdrs9hWaKETHGfCmJn0nopmqNkbqN5TVLCeac3AB9GjFyPcfwlyTJVzpg6oncAErVM7YQ7c+FwNz9qhPSBPoEgo2gINS1gOfYPJpNYRTrulThFMVaO7k2kpx9zT6eroKLQiMNIIQY1LK3nVjnv3YR6PaN/Qts+bkOMEWHg/CUkgFpCGQupRpiH9p3qJ1lQclIif1t8W4q23DcUDNK1KsiQU8p8KzpuZTHMTEqkrGWD3XyAA4Dfd+jXMrktZS5tpQx4j3GnD50fdIMO0jJ2HXvR3WP09mBBt6mjN0FjkMfQeQR49WC12mDFapUMnddd/WXYY1fdihd5VbHyn0AAAAASUVORK5CYII="
-                                            class="social-icon lazyLoad" data-v-e6131698=""></a> <a
-                                        href="https://www.linkedin.com/company/usefulpdf" target="_blank"
-                                        data-v-e6131698=""><img
+                                            class="social-icon lazyLoad"></a> <a
+                                        href="https://www.linkedin.com/company/usefulpdf" target="_blank"><img
                                             data-src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE2IDhDMTcuNTkxMyA4IDE5LjExNzQgOC42MzIxNCAyMC4yNDI2IDkuNzU3MzZDMjEuMzY3OSAxMC44ODI2IDIyIDEyLjQwODcgMjIgMTRWMjFIMThWMTRDMTggMTMuNDY5NiAxNy43ODkzIDEyLjk2MDkgMTcuNDE0MiAxMi41ODU4QzE3LjAzOTEgMTIuMjEwNyAxNi41MzA0IDEyIDE2IDEyQzE1LjQ2OTYgMTIgMTQuOTYwOSAxMi4yMTA3IDE0LjU4NTggMTIuNTg1OEMxNC4yMTA3IDEyLjk2MDkgMTQgMTMuNDY5NiAxNCAxNFYyMUgxMFYxNEMxMCAxMi40MDg3IDEwLjYzMjEgMTAuODgyNiAxMS43NTc0IDkuNzU3MzZDMTIuODgyNiA4LjYzMjE0IDE0LjQwODcgOCAxNiA4VjhaIiBzdHJva2U9IiNGOUY5RkEiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik02IDlIMlYyMUg2VjlaIiBzdHJva2U9IiNGOUY5RkEiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik00IDZDNS4xMDQ1NyA2IDYgNS4xMDQ1NyA2IDRDNiAyLjg5NTQzIDUuMTA0NTcgMiA0IDJDMi44OTU0MyAyIDIgMi44OTU0MyAyIDRDMiA1LjEwNDU3IDIuODk1NDMgNiA0IDZaIiBzdHJva2U9IiNGOUY5RkEiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo="
-                                            class="social-icon lazyLoad" data-v-e6131698=""></a></div>
+                                            class="social-icon lazyLoad"></a></div>
                             </div>
                         </div>
                     </div>

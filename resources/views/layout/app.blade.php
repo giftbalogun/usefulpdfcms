@@ -199,15 +199,15 @@
                                 </p>
                                 <div class="us-footer--social">
                                     <a href="http://facebook.com/usefulpdf" target="_blank">
-                                        <img data-src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAWCAYAAAAb+hYkAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADWSURBVHgB3VLLDcIwDE1CRK+MUDbpBrABbMBq3YARYAOyAaeqH7UyjsDIdZ1S9ciTIif+PzvWKACAXd/3F5QFgCmEOVgZUNd17tzmitfcLEXbdg88ECUmKGJVZot6kFXOFMCdZ4NQcYvKqmqP8Y28Tvh+kjMdKzNFmWVbS60q3II388h5EoIzK+ATLYwgyAenBITEfZxlMkYFtI6macrFnJzzhygBXOl5RWoJp7X/6Bjft3kYurvVBsH2JNv+JjS8GndM8V21p38MUn/5rx8iKwXFZ6J7ATRgtzdCeXyQAAAAAElFTkSuQmCC"
+                                        <img src="{{ asset('/useful_v2_assets/img/fb.png') }}"
                                             class="social-icon lazyLoad">
                                     </a>
                                     <a href="https://twitter.com/pdfuseful" target="_blank">
-                                        <img data-src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAVCAYAAABc6S4mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHpSURBVHgBzVXdccIwDLad0gtvbEA2aDZoNmg3KJ2AbgCdoDABbACdADpB6QSwATzAOYmJXSnBxDg/DcdLv7vEP5KlT7JlE/IfwTn34jieRFG8hU/Bt8YxzmdyEUSRGGCf5otE0GrRruM4n5TSXZXx4/H4kiRyBN1OiXhHKVkpRYLUOCVLkntMmShkQmqYa9ZhGI9yxtzjPJpqGwVbqHwpjGZ6sQmQTepIwJoeyL5PdrZnGzC5wElgMcR86rxyHveUUh3DwTbTKzpHoK4mGYbhm8ks9brf7/0sDWJmhbqIY/Ghx6QGpTqQopQ1oGuFu7Dzeq2DuyrFdrs9hWaKETHGfCmJn0nopmqNkbqN5TVLCeac3AB9GjFyPcfwlyTJVzpg6oncAErVM7YQ7c+FwNz9qhPSBPoEgo2gINS1gOfYPJpNYRTrulThFMVaO7k2kpx9zT6eroKLQiMNIIQY1LK3nVjnv3YR6PaN/Qts+bkOMEWHg/CUkgFpCGQupRpiH9p3qJ1lQclIif1t8W4q23DcUDNK1KsiQU8p8KzpuZTHMTEqkrGWD3XyAA4Dfd+jXMrktZS5tpQx4j3GnD50fdIMO0jJ2HXvR3WP09mBBt6mjN0FjkMfQeQR49WC12mDFapUMnddd/WXYY1fdihd5VbHyn0AAAAASUVORK5CYII="
+                                        <img src="{{ asset('/useful_v2_assets/img/tw.png') }}"
                                             class="social-icon lazyLoad">
                                     </a>
-                                    <a href="https://www.linkedin.com/company/usefulpdf" target="_blank"><img
-                                            data-src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE2IDhDMTcuNTkxMyA4IDE5LjExNzQgOC42MzIxNCAyMC4yNDI2IDkuNzU3MzZDMjEuMzY3OSAxMC44ODI2IDIyIDEyLjQwODcgMjIgMTRWMjFIMThWMTRDMTggMTMuNDY5NiAxNy43ODkzIDEyLjk2MDkgMTcuNDE0MiAxMi41ODU4QzE3LjAzOTEgMTIuMjEwNyAxNi41MzA0IDEyIDE2IDEyQzE1LjQ2OTYgMTIgMTQuOTYwOSAxMi4yMTA3IDE0LjU4NTggMTIuNTg1OEMxNC4yMTA3IDEyLjk2MDkgMTQgMTMuNDY5NiAxNCAxNFYyMUgxMFYxNEMxMCAxMi40MDg3IDEwLjYzMjEgMTAuODgyNiAxMS43NTc0IDkuNzU3MzZDMTIuODgyNiA4LjYzMjE0IDE0LjQwODcgOCAxNiA4VjhaIiBzdHJva2U9IiNGOUY5RkEiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik02IDlIMlYyMUg2VjlaIiBzdHJva2U9IiNGOUY5RkEiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik00IDZDNS4xMDQ1NyA2IDYgNS4xMDQ1NyA2IDRDNiAyLjg5NTQzIDUuMTA0NTcgMiA0IDJDMi44OTU0MyAyIDIgMi44OTU0MyAyIDRDMiA1LjEwNDU3IDIuODk1NDMgNiA0IDZaIiBzdHJva2U9IiNGOUY5RkEiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo="
+                                    <a href="https://www.linkedin.com/company/usefulpdf" target="_blank">
+                                        <img src="{{ asset('/useful_v2_assets/img/linkedin.svg') }}"
                                             class="social-icon lazyLoad">
                                     </a>
                                 </div>

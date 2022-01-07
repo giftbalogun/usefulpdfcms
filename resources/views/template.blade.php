@@ -2,20 +2,20 @@
 @section('content')
 
 
-    <main id="app" class="main">
-        <div class="cms-template-container">
+    <main id="app" class="main" data-v-e6131698="">
+        <div data-v-e6131698="" class="cms-template-container">
             <section class="us-hero is--medium pb-5">
                 <div class="container">
                     <div class="us-hero--content">
                         <div class="row">
                             <div class="col-lg-6  mb-5 mb-lg-0 ">
                                 <h1 class="us-hero--content-title  h1-title">
-                                    {{ $templates->name }}
+                                    {{ $templates->header_title }}
                                 </h1>
                                 <div class="text-white small text-left">
                                     <div class="cms-white-text">
                                         <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
-                                            </span>
+                                            {!! $templates->header_content !!} </span>
                                         </p>
                                     </div>
                                 </div>
@@ -35,10 +35,10 @@
                                 </div>
                             </div>
                             <div class="col-lg-6 text-lg-right text-center  ">
-
-                                <img onerror="this.src=&#39;https://via.placeholder.com/350x400/FFFFFF/000000/?text=Placeholder&#39;"
-                                    alt="" class="rounded-lg img-fluid lazyLoad isLoaded" src="">
-
+                                @if ($templates->preview_image)
+                                    <img onerror="this.src=&#39;https://via.placeholder.com/350x400/FFFFFF/000000/?text=Placeholder&#39;"
+                                        alt="" class="rounded-lg img-fluid lazyLoad isLoaded" src="{{ $imagePath }}">
+                                @endif
                             </div>
                         </div>
                     </div>
@@ -70,7 +70,7 @@
                     <div class="col-lg-8 col-12 mb-5">
                         <!---->
                         <h2 class="mb-5">
-                            Categories of
+                            Categories of {{ $templates->name }}
                         </h2>
 
                         <div class="col-12 col-md-6 mt-2 mb-5">
@@ -107,7 +107,7 @@
                 <section id="extra-info" class="row ">
                     <div class="col-12 offset-lg-2 col-lg-8 pt-5 pb-5">
                         <div class="mt-5 mb-5 cms-black-text">
-
+                            {!! $templates->template_body !!}
                         </div>
                     </div>
                 </section>

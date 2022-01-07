@@ -59,7 +59,7 @@ Route::group(['prefix' => '/'], function () {
         'contracts.slug'
     );
 
-    Route::get('/{contract}/{template}', [
+    Route::get('/{contract}/{slug?}', [
         ContractController::class,
         'template',
     ])->name('tcontracts.slug');

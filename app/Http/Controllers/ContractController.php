@@ -31,16 +31,19 @@ class ContractController extends Controller
         return view('slug')->with($data);
     }
 
-    public function template($slug)
+    public function template($contract, $slug = null)
     {
         $templates = Template::where('slug', $slug)->first();
-        //$lists = $templates->contract;
+        $file = API::getFiles($templates->preview_image, null, true);
+        $imagePath = Storage::url(
+            config('nova-media-library.folder') . '/' . $file->name
+        );
         $contractss = Contract::latest()->get();
 
         $data = [
             'templates' => $templates,
             'contractss' => $contractss,
-            //'list' => $lists,
+            'imagePath' => $imagePath,
         ];
 
         return view('template', $data);

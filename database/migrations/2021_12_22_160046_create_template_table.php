@@ -50,6 +50,6 @@ class CreateTemplateTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('template_categories');
+        Schema::dropIfExists('template');
     }
 }

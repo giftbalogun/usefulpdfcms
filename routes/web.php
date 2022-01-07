@@ -1,9 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Models\Template;
-use App\Models\Contract;
-
 use App\Http\Controllers\ContractController;
 
 /*
@@ -17,44 +14,53 @@ use App\Http\Controllers\ContractController;
 |
 */
 
-Route::get('/upload', function () {
-    $files = Storage::disk('digitalocean')->files('uploads');
-
-    return view('post', compact('files'));
-});
-
-Route::post('/upload', function () {
-    Storage::disk('digitalocean')->putFile(
-        'uploads',
-        request()->file,
-        'public'
-    );
-
-    return redirect()->back();
-});
-
 Route::get('/', function () {
     return view('index');
-});
+})->name('homepage');
+
+Route::get('/about', function () {
+    return view('frontend.about');
+})->name('about');
+
+Route::get('/dpa', function () {
+    return view('frontend.dpa');
+})->name('dpa');
+
+Route::get('/electronic-signature', function () {
+    return view('frontend.electronic-signature');
+})->name('electronic-signature');
+
+Route::get('/document-generation', function () {
+    return view('frontend.document-generation');
+})->name('document-generation');
+
+Route::get('/signature-creator', function () {
+    return view('frontend.signature-creator.index');
+})->name('signature-creator');
+
+Route::get('/signature-creator/draw', function () {
+    return view('frontend.signature-creator.draw');
+})->name('signature-creator-draw');
+
+Route::get('/signature-creator/type', function () {
+    return view('frontend.signature-creator.type');
+})->name('signature-creator-type');
+
+Route::get('/contact', function () {
+    return view('frontend.contact');
+})->name('contact');
 
 Route::get('/contracts', function () {
     return view('contracts');
 })->name('contracts');
 
-Route::get('/categories', function () {
-    return Template::all();
-});
-
-Route::get('/contr', function () {
-    return Contract::all();
-});
-
-Route::group(['prefix' => '/contracts'], function () {
+Route::group(['prefix' => '/'], function () {
     Route::get('/{contract}', [ContractController::class, 'contract'])->name(
         'contracts.slug'
     );
 
-    Route::get('/s/{template}', [ContractController::class, 'tcontract'])->name(
-        'tcontracts.slug'
-    );
+    Route::get('/{contract}/{template}', [
+        ContractController::class,
+        'template',
+    ])->name('tcontracts.slug');
 });

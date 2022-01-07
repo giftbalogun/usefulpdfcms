@@ -17,8 +17,8 @@ return [
      */
 
     'url' =>
-        's3' == env('FILESYSTEM_DRIVER')
-            ? env('AWS_URL', '')
+        'digitalocean' == env('FILESYSTEM_DRIVER')
+            ? env('DIGITALOCEAN_SPACES_URL', '')
             : env('APP_URL', '') . '/storage',
 
     /**

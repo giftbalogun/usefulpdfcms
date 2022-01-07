@@ -19,3 +19,19 @@ name
 Contracts=templates_categories
 
 Templates:contract_templates
+
+Route::get('/upload', function () {
+    $files = Storage::disk('digitalocean')->files('usefulpdfmedia');
+
+    return view('post', compact('files'));
+});
+
+Route::post('/upload', function () {
+    Storage::disk('digitalocean')->putFile(
+        'uploads',
+        request()->file,
+        'public'
+    );
+
+    return redirect()->back();
+});

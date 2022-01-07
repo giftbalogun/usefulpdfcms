@@ -149,7 +149,7 @@
                                             @if ($contracts->preview_image)
                                                 <img onerror="this.src=&#39;https://via.placeholder.com/350x400/FFFFFF/000000/?text=Placeholder&#39;"
                                                     alt="" class="rounded-lg img-fluid lazyLoad isLoaded"
-                                                    src="https://usefulpdfcmstest.fra1.digitaloceanspaces.com/uploads/tc2X2KDPCq4IxfRdaczpCiyON7VgjtPqn8NHC4dm.jpg">
+                                                    src="{{ $imagePath }}">
                                             @endif
 
                                         </div>
@@ -186,25 +186,26 @@
                                     <h2 class="mb-5">
                                         Categories of {{ $contracts->name }}
                                     </h2>
+
                                     <div class="row">
-
-                                        <div class="col-12 col-md-6 mt-5 mb-5">
-                                            <a href="" class="text-is-primary title-link mb-3">
-
-                                            </a>
-                                            <div class="cms-black-text">
-                                                <p>A bill of sale document that's used to prove the
-                                                    lawful transfer
-                                                    of ownership for all types of motor
-                                                    vehicles.&nbsp;</p>
+                                        @foreach ($tcontracts as $item)
+                                            <div class="col-12 col-md-6 mt-5 mb-5">
+                                                <a href="{{ url('/' . $contracts->slug . '/' . $item->slug) }}"
+                                                    class="text-is-primary title-link mb-3">
+                                                    {{ $item->name }}
+                                                </a>
+                                                <div class="cms-black-text">
+                                                    <p>{!! $item->header_content !!}</p>
+                                                </div>
+                                                <a href="{{ url('/' . $contracts->slug . '/' . $item->slug) }}"
+                                                    class="">
+                                                    <img alt="Arrow" class="lazyLoad isLoaded"
+                                                        src="{{ asset('/useful_v2_assets/icons/arrow.svg') }}">
+                                                </a>
                                             </div>
-                                            <a href="#" class=""><img alt="Arrow"
-                                                    class="lazyLoad isLoaded"
-                                                    src="{{ asset('/useful_v2_assets/icons/arrow.svg') }}">
-                                            </a>
-                                        </div>
-
+                                        @endforeach
                                     </div>
+
                                     <div class="col-12 col-md-6 mt-2 mb-5">
                                         <h2 class="mb-5">Bill Of Sale by State</h2>
                                     </div>
@@ -431,43 +432,18 @@
             </div>
         </div>
     </div>
-    <script src="https://usefulpdf.com/4351892.js.download" defer=""></script>
-    <script src="https://usefulpdf.com/705290f.js.download" defer=""></script>
-    <script src="https://usefulpdf.com/ba47745.js.download" defer=""></script>
-    <script src="https://usefulpdf.com/5e7a9bf.js.download" defer=""></script>
-    <script src="https://usefulpdf.com/80a7cf0.js.download" defer=""></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" data-body="true"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"
-        data-body="true"></script>
+        data-body="true">
+    </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"
-        data-body="true"></script>
+        data-body="true">
+    </script>
     <script src="{{ asset('/useful_v2_assets/js/flags.js') }}" data-body="true"></script>
     <script src="{{ asset('/useful_v2_assets/js/ui.js') }}" data-body="true"></script>
-
-
-    <div>
-        <div>
-            <div class="Vue-Toastification__container top-left"></div>
-        </div>
-        <div>
-            <div class="Vue-Toastification__container top-center"></div>
-        </div>
-        <div>
-            <div class="Vue-Toastification__container top-right"></div>
-        </div>
-        <div>
-            <div class="Vue-Toastification__container bottom-left"></div>
-        </div>
-        <div>
-            <div class="Vue-Toastification__container bottom-center"></div>
-        </div>
-        <div>
-            <div class="Vue-Toastification__container bottom-right"></div>
-        </div>
-    </div>
     <meta name="google-site-verification" content="wqk8yBWsA9Enk1OEJlnG0Jh2d-yA5eF_fVFz7paK-fI">
     <div id="mfa_inject_cartdata" hidden="hidden"></div>
     <div id="mfa_inject" hidden="hidden"></div>

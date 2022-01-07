@@ -1,0 +1,123 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&family=Rhodium+Libre&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&category=Handwriting&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&category=Handwriting&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&category=Handwriting&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&category=Handwriting&display=swap#standard-styles');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&category=Handwriting&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&category=Handwriting&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&category=Handwriting&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&category=Handwriting&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&category=Handwriting&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&category=Handwriting&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&category=Handwriting&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&category=Handwriting&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&category=Handwriting&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&category=Handwriting&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&category=Handwriting&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&category=Handwriting&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&category=Handwriting&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&category=Handwriting&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Damion&category=Handwriting&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&category=Handwriting&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&category=Handwriting&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&category=Handwriting&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&category=Handwriting&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Norican&category=Handwriting&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&category=Handwriting&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&category=Handwriting&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&category=Handwriting&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&category=Handwriting&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kristi&category=Handwriting&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ballet&category=Handwriting&display=swap');
+
+.homemadeApple {
+    font-family: 'Homemade Apple', serif;
+}
+.indieFlower {
+    font-family: 'Indie Flower', serif;
+}
+.pacifico {
+    font-family: 'Pacifico', serif;
+}
+.shadowsIntoLight {
+    font-family: 'Shadows Into Light', serif;
+}
+.caveat {
+    font-family: 'Caveat', serif;
+}
+.satisfy {
+    font-family: 'Satisfy', serif;
+}
+.greatVibes {
+    font-family: 'Great Vibes', serif;
+}
+.kaushanScript {
+    font-family: 'Kaushan Script', serif;
+}
+.sacramento {
+    font-family: 'Sacramento', serif;
+}
+.parisienne {
+    font-family: 'Parisienne', serif;
+}
+.yellowtail {
+    font-family: 'Yellowtail', serif;
+}
+.cookie {
+    font-family: 'Cookie', serif;
+}
+.dancingScript {
+    font-family: 'Dancing Script', serif;
+}
+.handlee {
+    font-family: 'Handlee', serif;
+}
+.tangerine {
+    font-family: 'Tangerine', serif;
+}
+.badScript {
+    font-family: 'Bad Script', serif;
+}
+.marckScript {
+    font-family: 'Marck Script', serif;
+}
+.allura {
+    font-family: 'Allura', serif;
+}
+.damion {
+    font-family: 'Damion', serif;
+}
+.alexBrush {
+    font-family: 'Alex Brush', serif;
+}
+.mrDafoe {
+    font-family: 'Mr Dafoe', serif;
+}
+.pinyonScript {
+    font-family: 'Pinyon Script', serif;
+}
+.italianno {
+    font-family: 'Italianno', serif;
+}
+.norican {
+    font-family: 'Norican', serif;
+}
+.yesteryear {
+    font-family: 'Yesteryear', serif;
+}
+.arizonia {
+    font-family: 'Arizonia', serif;
+}
+.herrVonMuellerhoff {
+    font-family: 'Herr Von Muellerhoff', serif;
+}
+.mrsSaintDelafield {
+    font-family: 'Mrs Saint Delafield', serif;
+}
+.kristi {
+    font-family: 'Kristi', serif;
+}
+.ballet {
+    font-family: 'Ballet', serif;
+}
